@@ -4,7 +4,8 @@ set -e
 
 export BASE_DIR=$(pwd)
 export SECRETS_DIR=$(pwd)/../secrets/
-export GCS_BUCKET_NAME="mushroom-app-data-demo"
+
+export GCS_BUCKET_NAME="lec5_data_bucket"
 export GCP_PROJECT="ac215-project"
 export GCP_ZONE="us-central1-a"
 
